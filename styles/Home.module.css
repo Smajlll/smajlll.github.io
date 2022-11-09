@@ -1,5 +1,9 @@
 .container {
   padding: 0 2rem;
+  background: rgb(235, 234, 234);
+  align-items: center;
+  font-size: 1.3rem;
+  border-radius: 1rem;
 }
 
 .main {
@@ -11,7 +15,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .footer {
   display: flex;
   flex: 1;
@@ -42,9 +45,15 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
-
+.name {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  color: rgb(0, 20, 32); 
+  text-align: center;
+}
 .title,
 .description {
   text-align: center;
@@ -126,4 +135,27 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.blogpost {
+  padding: 0 2rem;
+  background: rgb(212, 212, 212);
+  align-items: center;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+.text {
+  color: #777;
+  text-align: center;
 }
