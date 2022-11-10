@@ -5,7 +5,7 @@ const config = () => {
     return ( 
         
         <div>
-            <h1>Config</h1>
+            <h1>Google Play Downloader</h1>
             <p className={styles.text}>Účel: Tento repositář je aplikace ke stahování .apk souborů z Google Play.</p>
             <p className={styles.text}>Je tento repositář fork? Ano.</p>
             <Link legacyBehavior href="https://github.com/Smajlll/google-play-downloader/"><a className={styles.btn}>Odkaz na tento repositář</a></Link>
