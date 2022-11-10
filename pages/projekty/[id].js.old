@@ -1,0 +1,40 @@
+export const getStaticPaths = async () => {
+    const res = await fetch('https://api.github.com/users/smajlll/repos');
+    const data = await res.json();
+
+    const paths = data.map(repo => {
+        return {
+            params: { id: repo.id.toString() }
+        }
+    })
+    
+    return {
+        paths,
+        fallback: false
+    }
+}
+
+export const getStaticProps = async (context) => {
+    const id = context.params.id;
+    const res = await fetch('https://api.github.com/repos/smajlll/' + id);
+    const data = await res.json()
+
+    return {
+        props: { repo: data }
+    }
+}
+
+const Detaily = ({ repo }) => {
+    return ( 
+        <div>
+            <h1>{ repo.name }</h1>
+            <p>{ repo.full_name }</p>
+            <p>{ repo.description }</p>
+            <p>{ repo.fork }</p>
+        </div>
+     );
+}
+ 
+export default Detaily;
+
+// 13. video od TheNetNinja nextjs tutoriálu 4:20
