@@ -16,4 +16,3 @@ ports:
 vscode:
   extensions:
     - eamodio.gitlens
-    - burkeholland.simple-react-snippets
