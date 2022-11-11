@@ -7,7 +7,7 @@ const Navbar = () => {
                 <Image src="/mc-skin.jpg" width={80} height={80}/>
             </div>
                 <Link legacyBehavior href="/"><a>Domovská stránka </a></Link>
-               <Link legacyBehavior href="/about"><a>O mně </a></Link>
+               <Link legacyBehavior href="/ome"><a>O mně </a></Link>
                 <Link legacyBehavior href="/projekty"><a>Projekty </a></Link>
                 <Link legacyBehavior href="/blog"><a>Můj Blog </a></Link>
         </nav>
