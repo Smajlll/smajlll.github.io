@@ -51,7 +51,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 3rem;
-  color: rgb(0, 20, 32); 
+  color: rgb(56, 55, 55); 
   text-align: center;
 }
 .title,
@@ -61,7 +61,7 @@
 .blogtitle {
   margin: 0;
   line-height: 1.15;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-align: center;
 }
 .blogtitle {
@@ -165,10 +165,20 @@
   text-align: center;
 }
 .text {
-  color: #777;
+  color: rgb(100, 100, 100);
   text-align: center;
 }
 .allposts {
   text-align: right;
   color: #777;
+}
+.footertext {
+  color: #5c5b5b;
+}
+.footerlink {
+  color: #4979ff;
+  text-decoration: underline;
+}
+.navtext {
+  color: black;
 }
