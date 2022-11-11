@@ -182,3 +182,12 @@
 .navtext {
   color: black;
 }
+.blog_podnadpis {
+  font-size: 1.5rem;
+}
+.codesnip {
+  background: rgb(73, 73, 73);
+  color: white;
+  border-radius: 1rem;
+  text-align: center;
+}
