@@ -58,7 +58,16 @@
 .description {
   text-align: center;
 }
-
+.blogtitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.blogtitle {
+  color: #4979ff;
+  text-decoration: underline;
+}
 .description {
   margin: 4rem 0;
   line-height: 1.5;
@@ -139,7 +148,7 @@
 
 .blogpost {
   padding: 0 2rem;
-  background: rgb(212, 212, 212);
+  background: rgb(231, 230, 230);
   align-items: center;
   font-size: 1.3rem;
   border-radius: 1rem;
@@ -158,4 +167,8 @@
 .text {
   color: #777;
   text-align: center;
+}
+.allposts {
+  text-align: right;
+  color: #777;
 }
