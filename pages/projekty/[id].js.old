@@ -4,7 +4,7 @@ export const getStaticPaths = async () => {
 
     const paths = data.map(repo => {
         return {
-            params: { id: repo.id.toString() }
+            params: { name: repo.name.toString() }
         }
     })
     
@@ -15,8 +15,8 @@ export const getStaticPaths = async () => {
 }
 
 export const getStaticProps = async (context) => {
-    const id = context.params.id;
-    const res = await fetch('https://api.github.com/repos/smajlll/' + id);
+    const name = context.params.name;
+    const res = await fetch('https://api.github.com/repos/smajlll' + name);
     const data = await res.json()
 
     return {
@@ -29,8 +29,8 @@ const Detaily = ({ repo }) => {
         <div>
             <h1>{ repo.name }</h1>
             <p>{ repo.full_name }</p>
-            <p>{ repo.description }</p>
-            <p>{ repo.fork }</p>
+      //     <p>{ repo.description }</p>
+      //      <p>{ repo.fork }</p>
         </div>
      );
 }
