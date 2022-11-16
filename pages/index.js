@@ -16,7 +16,7 @@ export default function Home() {
           <p className={styles.text}>Vítej Poutníku, dovol abych se představil.</p>
           <p className={styles.text}>Jmenuji se Vítek, ale hodně lidí ke mně referuje jako Smajl, zajímám se o programování, psaní webů a hraní her.</p>
             <Link legacyBehavior href="/about">
-              <a className={styles.btn}>Dozvědět se víc o mě</a>
+              <a className={styles.btn}>Dozvědět se o mně víc</a>
             </Link>
             <Link legacyBehavior href="/projekty">
               <a className={styles.btn}>Moje projekty</a>
