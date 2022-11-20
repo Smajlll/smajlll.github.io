@@ -16,6 +16,8 @@ export default function Home() {
     <div className={styles.title}>
         <h1>Všechny blog posty</h1>
       </div><div>
+      <Link legacyBehavior href='../blog/post/3'><a className={styles.blogtitle}>Spouštění ChromeOS Flex v QEMU</a></Link>
+         <p className={styles.blogpost}>Ahoj, tady zas a znova Vítek. Dneska jsem se pokusil a dokonce se mi i povedlo spustit Google ChromeOS Flex v QEMU na svém Arch Linuxu :D</p>
       <Link legacyBehavior href='../blog/post/2'><a className={styles.blogtitle}>Next.JS Deployment</a></Link>
          <p className={styles.blogpost}>Ahoj, tady zas a znova Vítek, dneska se tady chci rozepsat o tom jak jsem deploynul NExt.JS aplikaci (tento web) za použití Githubu a Vercelu...</p>
         <Link legacyBehavior href='../1'><a className={styles.blogtitle}>Jen začátek...</a></Link>
