@@ -13,7 +13,7 @@ const post3 = () => {
         <p className={styles.text}>Ahoj, tady zas a znova Vítek. Dneska jsem se pokusil a dokonce se mi i povedlo spustit Google ChromeOS Flex v QEMU na svém Arch Linuxu :D</p>
         <p className={styles.text}>Takže, než začneme, budeme potřebovat nainstalovat QEMU, unzip a wget, dále si taky stáhnout .bin soubor pro ChromeOS Flex.</p>
         <p className={styles.text}>Na mém počítači je instalace potřebných programů je vcelku jednoduchá. Stačí napsat příkaz</p>
-        <p className={styles.codesnip}>yay -S wget unzip qemu</p>
+        <p className={styles.codesnip}>yay -S wget unzip qemu qemu-kvm</p>
         <p className={styles.text}>Dále jsem si stáhnul nejnovější recovery soubor pro ChromeOS Flex ze stránky <Link legacyBehavior href="https://chromiumdash.appspot.com/serving-builds?deviceCategory=ChromeOS%20Flex"><a>Chromium Dash</a></Link></p>
         <p className={styles.text}>Pro ty co mají radši CLI, můžete použít tento příkaz:</p>
         <p className={styles.codesnip}>wget https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15117.112.0_reven_recovery_stable-channel_mp-v2.bin.zip</p>
