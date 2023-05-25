@@ -1,0 +1,49 @@
+-----BEGIN INFORMATION DOCUMENT-----
+
+[Basic Info]
+
+Full Name - Vít Smolík
+Nickname - Smajl
+Website - https://smoliicek.tk/
+My Github - https://github.com/Smajlll
+My Gitlab - https://gitlab.com/Smajlll
+
+[Contact Information]
+
+Personal E-Mail - vit.smolik2@gmail.com
+Work E-Mail - smolikv@newtly.eu
+Discord - Smajl#3337
+Telegram - https://t.me/smolikv
+Matrix - @smajloo:matrix.org
+
+[Payment Information]
+
+PayPal - https://paypal.me/smolikv
+Bank Account [CZ Only] - 4312168003/0800
+Bank Account [IBAN] - CZ22 0800 0000 0043 1216 8003
+Bank Account [BIC/SWIFT] - GIBACZPX
+Bitcoin Address [Segwit] - bc1q79q625mxj7ylady0lp5wpzg9lmneem9ghdwe9f
+Bitcoin Address [Legacy] - 1DoxaJrT2CqyfdapyrBVWyFwhHfTJjFhWd
+ETH Address - 0x16dFF003c543C5F0751b3EC87099b6C4c46CB2f5
+
+[Social Accounts]
+
+My Instagram - https://instagram.com/smoliik.v
+My Twitter - https://twitter.com/@smoliicek
+My Mastodon - https://techhub.social/@smoliiczech
+
+[My Certificates]
+
+PGP Key Fingerprint - E584BD47D4E7984338BB1ABBB53C947B888258A4
+Full PGP Key - https://smoliicek.tk/pgpkey.txt 
+SSH Public Key - https://smoliicek.tk/sshkey.txt 
+
+[Game Accounts]
+
+Steam - https://steamcommunity.com/id/smajlo__
+Battle.net - Smajl#21869
+GOG - SmajlWasHere
+EA - 63w3q19eecph
+Epic Games - Smαjlo ツ
+
+-----END INFORMATION DOCUMENT-----
