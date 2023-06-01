@@ -20,6 +20,6 @@ Tato stránka je stavěna na frameworku NEXT, který je stavěný na Reactu.
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 ## Plány pro budoucnost
-  [ ] Dodělat všechno co je v GH Issues momentálně
-  [ ] Předělat svůj web na Svelte
-  [ ] Pokračovat i na gitlabu
+  - Dodělat všechno co je v GH Issues momentálně
+  - Předělat svůj web na Svelte
+  - Pokračovat i na gitlabu
