@@ -12,6 +12,7 @@ const Navbar = () => {
                 <Link legacyBehavior href="/projekty"><a className={styles.navtext}>Projekty </a></Link>
                 <Link legacyBehavior href="/blog"><a className={styles.navtext}>Můj Blog </a></Link>
                 <Link legacyBehavior href="/pgpkey.txt"><a className={styles.navtext}>Můj GPG Klíč </a></Link>
+                <a rel="me" href="https://mastodon.social/@smoliicek">Mastodon</a>
         </nav>
      );
 }
