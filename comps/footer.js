@@ -7,6 +7,7 @@ const Footer = () => {
         <footer>
            <a className={styles.footertext}> © Vít Smolík 2022</a> <br></br>
             <Image src="/cib-github.svg" width={17} height={17}></Image> Tahle stránka je na <Link legacyBehavior href="https://github.com/Smajlll/vitekWeb"><a className={styles.footerlink}>Githubu</a></Link><br></br> 
+           <a rel="me" href="https://mastodon.social/@smoliicek">Mastodon</a>
         </footer>
      );
 }
