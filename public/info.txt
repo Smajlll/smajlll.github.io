@@ -34,7 +34,7 @@ My Mastodon - https://techhub.social/@smoliiczech
 
 [My Certificates]
 
-PGP Key Fingerprint - E584BD47D4E7984338BB1ABBB53C947B888258A4
+PGP Key Fingerprint - currently revoked
 Full PGP Key - https://smoliicek.tk/pgpkey.txt 
 SSH Public Key - https://smoliicek.tk/sshkey.txt 
 
